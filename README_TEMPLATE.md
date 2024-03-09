@@ -1,4 +1,4 @@
-# Project Title
+# Project: Create a Token
 
 Simple overview of use/purpose.
 
