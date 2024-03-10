@@ -4,7 +4,7 @@ Its a way of creating a token for aspiring crypto enthusiast who wants to make t
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This software is a basic program coded in Solidity, a programming language designed for creating smart contracts on the Ethereum blockchain. This application acts as a clear and uncomplicated initiation into Solidity programming, providing a foundation for more intricate projects down the line.
 
 ## Getting Started
 
