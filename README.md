@@ -17,7 +17,14 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 * How to run the program
 * Step-by-step bullets
 ```
-code blocks for commands
+pragma solidity 0.8.18;
+contract MyToken {
+    // public variables here
+    string public tokenName = "META";
+    string public tokenAbbrv = "MTA";
+    uint public totalSupply = 0;
+
+then add the following code for Mint and Burn
 ```
 
 ## Help
