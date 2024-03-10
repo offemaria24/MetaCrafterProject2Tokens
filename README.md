@@ -24,7 +24,28 @@ contract MyToken {
     string public tokenAbbrv = "MTA";
     uint public totalSupply = 0;
 
-then add the following code for Mint and Burn
+then add the following code for Mapping
+
+   // mapping variable here
+    mapping(address => uint) public balances;
+
+After mapping the code now you include the Mint and Burn function
+
+   // mint function
+    function mint (address _address, uint _value)public {
+    totalSupply += _value;
+    balances[_address] += _value;
+
+}
+    // burn function
+    function burn (address _address, uint _value)public {
+        if(balances[_address] >= _value){
+        totalSupply -= _value;
+        balances[_address] -= _value;
+        }  
+    }
+}
+
 ```
 
 ## Help
