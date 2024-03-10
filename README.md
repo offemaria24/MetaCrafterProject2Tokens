@@ -1,6 +1,6 @@
 # Project: Create a Token
 
-Simple overview of use/purpose.
+Its a way of creating a token for aspiring crypto enthusiast who wants to make their own coin or token.
 
 ## Description
 
