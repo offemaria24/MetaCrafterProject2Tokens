@@ -15,11 +15,15 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 ### Executing program
 
 * How to run the program
+Go to the remix website located at the description ^ then when you open the web site you have to click start coding
+
+Then apply the code provided below.
+
 * Step-by-step bullets
 ```
 pragma solidity 0.8.18;
 contract MyToken {
-    // public variables here
+    // public variables here, Declaration of Variables.
     string public tokenName = "META";
     string public tokenAbbrv = "MTA";
     uint public totalSupply = 0;
@@ -47,20 +51,16 @@ After mapping the code now you include the Mint and Burn function
 }
 
 ```
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "HelloWorld" contract from the dropdown menu, and then click on the "Deploy" button.
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Wilem Offemaria 
+wilemOffemaria@gmail.com
 
 
 ## License
