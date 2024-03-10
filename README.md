@@ -8,10 +8,9 @@ This software is a basic program coded in Solidity, a programming language desig
 
 ## Getting Started
 
-### Installing
+To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
 
 ### Executing program
 
